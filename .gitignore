@@ -1,0 +1,39 @@
+# Git ignore file for Portfolio
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build files
+dist/
+build/
+*.log
+
+# Environment
+.env
+.env.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*._*
+
+# Resume (if private)
+# resume.pdf
+
+# Archives
+*.zip
+*.tar.gz
